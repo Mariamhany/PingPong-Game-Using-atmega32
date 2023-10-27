@@ -27,5 +27,9 @@
 
 
 void Charinit();
+void changeBallcol(void);
+void changeBallrow();
+void movePlayer();
+u8 Scorecalc(u8 *p1score, u8 *p2score) ;
 
 #endif /* GAME_H_ */
